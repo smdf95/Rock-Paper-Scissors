@@ -1,0 +1,35 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFEECC;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+h1 {
+    text-align: center;
+    color: #333333;
+}
+
+
+.choices {
+    display: flex;
+    justify-content: space-evenly; /* Changed from space-evenly to center */
+    margin-bottom: 20px; /* Added margin-bottom for spacing */
+}
+
+.bothChoices {
+    display: flex;
+    justify-content: space-evenly; /* Changed from space-evenly to center */
+}
+
+#outcomeContainer, #outcomeElement, #replay {
+    display: flex; /* Added this line */
+    justify-content: center;
+    align-items: center; /* Added this line */
+}
+
+#replay {
+    margin: 100px;
+}
