@@ -13,7 +13,7 @@ h1 {
 }
 
 
-.choices {
+#gameOptions {
     display: flex;
     justify-content: space-evenly; /* Changed from space-evenly to center */
     margin-bottom: 20px; /* Added margin-bottom for spacing */
@@ -32,4 +32,15 @@ h1 {
 
 #replay {
     margin: 100px;
+}
+
+#score {
+    display: flex;
+    justify-content: center;
+}
+
+#usersScore, #computersScore {
+    border: 1px solid #000000;
+    padding: 15px;
+    margin: 20px;
 }

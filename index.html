@@ -6,16 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" delay></script>
+    <script src="script.js"></script>
 </head>
 <body>
     <h1><a href="index.html">Rock Paper Scissors</a></h1>
-    <div class="choices">
-        <img src="rock.png" alt="Rock" id="rock" height="100px">
-        <img src="paper.png" alt="Paper" id="paper" height="100px">
-        <img src="scissors.png" alt="Scissors" id="scissors" height="100px">
-    </div>
-
+    <div id="gameOptions"></div>
     <div class="bothChoices">
         <div id="userChoice"></div>
         <div id="computerChoice"></div>
@@ -24,5 +19,14 @@
     <div id="outcomeContainer"></div>
     <div id="outcomeElement"></div>
     <div id="replay"></div>
+    <div id="score">
+        <div id="usersScore">
+            Your Score: <span id="userScore">0</span>
+        </div>
+        <div id="computersScore">
+            Computer Score: <span id="computerScore">0</span>
+        </div>
+    </div>
 </body>
+
 </html>
